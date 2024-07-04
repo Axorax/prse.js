@@ -1,0 +1,15 @@
+node_modules/
+.github/
+*.ts
+.gitignore
+.prettierignore
+!*.d.ts
+*.json
+!package.json
+test.js
+*.test.*
+build.cjs
+*.png
+.prettierrc
+LICENSE
+docs.md

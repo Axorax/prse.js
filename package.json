@@ -1,0 +1,32 @@
+{
+	"name": "prse",
+	"version": "3.2.1",
+	"description": "Simple validation library with plenty of features",
+	"main": "prse.esm.js",
+	"scripts": {
+		"build": "node build.cjs",
+		"dev": "tsc --project tsconfig.json",
+		"minify": "find . \\( -name '*.js' -o -name '*.cjs' \\) ! -name 'build.cjs' -exec terser --compress --mangle --output '{}' -- '{}' ';'"
+	},
+	"exports": {
+		"import": "./prse.esm.js",
+		"require": "./prse.cjs"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Axorax/prse.js.git"
+	},
+	"author": "Axorax",
+	"license": "AGPL-3.0",
+	"type": "module",
+	"keywords": [
+		"parse",
+		"types",
+		"type",
+		"parse-types"
+	],
+	"bugs": {
+		"url": "https://github.com/Axorax/prse.js/issues"
+	},
+	"homepage": "https://github.com/Axorax/prse.js#readme"
+}

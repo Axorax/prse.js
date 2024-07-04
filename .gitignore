@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.js
+*.ts
+!prse.ts
+package-lock.json
+prse.cjs
